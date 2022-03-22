@@ -1,0 +1,10 @@
+POST http://localhost:8080/runexpensecreate
+
+{
+    "nilai": 300000,
+    "deskripsi": "Bayar Pajak Kendaraan"
+}
+
+###
+
+GET http://localhost:8080/getallexpense
